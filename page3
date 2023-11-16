@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>voter commision Admin Panel</title>
+    <script>
+        function showAlert() {
+            
+            window.location.href = "page4.html"; 
+        }
+    </script>
+</head>
+<body style="background-color:blue">
+    <h1><center>ADMIN PANEL</center></h1><br><br>
+<center>
+    <form action="/admin/add_train" method="post">
+            <h2>Add/update e voting system</h2>
+            candidate : <input type="text" name=candidate" required><br><br>
+            election data: <input type="text" name="election data" required><br><br>
+            elections wards: <input type="text" name="elections ward" required><br><br>
+            voter list: <input type="text" name="voter list" required><br><br>
+           
+
+    import voter list: <input type="text" name="import voter list" required><br><br>
+            update voter list: <input type="text" name="update voter list" required><br><br>
+get election results: <input type="number" name="get election" required><br><br>
+    </form>
+<center>
+   <form>
+        <button type="button" onclick="showAlert()">next</button>
+    </form>
+</body>
+</html>
